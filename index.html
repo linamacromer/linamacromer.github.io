@@ -19,6 +19,7 @@
 		<p>1 teaspoon is equal to 4.929 Milliliters, so you can calculate the conversion by multiplying the number of teaspoons by 4.929, as shown below.</p>
 		<table border="1">
 			<tr>
+				<th rowspan="4">Conversion Table</th>
 				<th>Tsp</th>
 				<th>Milliliter</th>
 			</tr>
@@ -40,7 +41,7 @@
 		<p><em>Recipe from Food52</em> - <a href="https://food52.com/blog/8233-pappardelle-with-crispy-fennel-fresh-herbs">Link to Recipe</a></p>
 	<h2>Survey</h2>
 		<p>Thanks for visiting my website! Please take a moment to fill out this form...not that the information is being saved anywhere ;-)</p>
-		<form>
+		<form action="form_submit.html" method="post">
 			<fieldset>
 				<div>
 					<label for="name">Name:</label>
@@ -58,9 +59,10 @@
 				</div>
 				<div>
 					<label for="fave">Favorite food:</label><br>
-					<textarea rows="4" cols="50" placeholder="Enter text here!"></textarea>
+					<textarea rows="1" cols="25" placeholder="Enter text here!"></textarea>
 				</div>
 			</fieldset>
+			<button type="submit">Submit</button>
 		</form>
 </body>
 </html>
