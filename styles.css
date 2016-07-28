@@ -1,3 +1,14 @@
 html {
-	background-color: blue;
+	background-color: honeydew;
+}
+header	{
+	font-family: Papyrus, fantasy;
+	font-size: 35px;
+}
+h2	{
+	font-family: Copperplate, fantasy;
+	font-size: 25px;
+}
+body {
+	font-family: Arial;
 }
