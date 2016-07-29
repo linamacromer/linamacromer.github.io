@@ -1,3 +1,59 @@
 html {
-	background-color: blue;
+	background-color: honeydew;
+	padding-left: 12px;
+}
+
+body {
+	font-family: Arial;
+	font-size: 15px;
+}
+
+header	{
+	font-family: Papyrus, fantasy;
+	font-size: 30px;
+	padding-left: 10px;
+	margin-top: -25px; 
+	margin-bottom: -40px;
+}
+
+section {
+	display: block;
+	border-top: solid gray 1px;
+}
+
+h2	{
+	font-family: Copperplate, fantasy;
+	font-size: 25px;
+}
+
+fieldset {
+	background-image: url(http://sr.photos2.fotosearch.com/bthumb/CSP/CSP990/k11061406.jpg);
+}
+
+footer {
+	display: block;
+	margin: auto;
+	border-top: dashed thick green;
+	text-align: center;
+}
+
+.unordered {
+	list-style-type: circle;
+}
+
+#table_name {
+	text-decoration: underline;
+	width: 20px;
+}
+
+a:visited {
+	color: lightseagreen;
+}
+
+img {
+	width: 100%;
+}
+
+table {
+	margin-bottom: 15px;
 }
