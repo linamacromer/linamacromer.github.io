@@ -36,6 +36,7 @@ footer {
 	border: 1px solid pink;
 	margin: auto;
 	border-top: dashed thick green;
+	text-align: center;
 	/*MAKE THIS CENTERED*/
 }
 
