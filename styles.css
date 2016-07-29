@@ -1,16 +1,40 @@
 html {
 	background-color: honeydew;
+	padding-left: 12px;
 }
+
+body {
+	font-family: Arial;
+	font-size: 15px;
+}
+
 header	{
 	font-family: Papyrus, fantasy;
 	font-size: 30px;
 	padding-left: 10px;
+	margin-top: -25px; 
+	margin-bottom: -40px;
+	border: 1px blue;
 }
+
+section {
+	display: block;
+	border: 1px solid black;
+}
+
 h2	{
 	font-family: Copperplate, fantasy;
 	font-size: 25px;
 }
-body {
-	font-family: Arial;
-	font-size: 15px;
+
+fieldset {
+	background-image: url(http://sr.photos2.fotosearch.com/bthumb/CSP/CSP990/k11061406.jpg);
+}
+
+footer {
+	display: block;
+	border: 1px solid pink;
+	margin: auto;
+	border-top: dashed thick green;
+	/*MAKE THIS CENTERED*/
 }
