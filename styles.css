@@ -38,3 +38,7 @@ footer {
 	border-top: dashed thick green;
 	/*MAKE THIS CENTERED*/
 }
+
+a:visited {
+	color: lightseagreen;
+}
