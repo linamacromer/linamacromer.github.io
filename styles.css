@@ -39,6 +39,15 @@ footer {
 	/*MAKE THIS CENTERED*/
 }
 
+.unordered {
+	list-style-type: circle;
+}
+
+#table_name {
+	text-decoration: underline;
+	width: 20px;
+}
+
 a:visited {
 	color: lightseagreen;
 }
