@@ -1,13 +1,9 @@
 html {
 	background-color: honeydew;
 	padding-left: 12px;
-	height: 100%;
-        min-height: 100%;
 }
 
 body {
 	font-family: Arial;
 	font-size: 15px;
-	height: 100%;
-        min-height: 100%;
 }
