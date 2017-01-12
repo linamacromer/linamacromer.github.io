@@ -65,8 +65,8 @@ header {
   margin-top: -40px;
   margin-left: -30px;
   margin-right: -30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 #mainNav {
@@ -85,7 +85,7 @@ header {
 #mainNav ul li a {
   text-decoration: none;
   font-weight: bold;
-  color: #ecf0f1;
+  color: #b0c4de;
 }
 
 #mainNav ul li a:hover {
@@ -95,7 +95,7 @@ header {
 /*LANDING*/
 #landingPage {
   height: 600px;
-  background: rgb(48, 71, 94);
+  background: url(lina.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -110,14 +110,14 @@ header {
 #landingPage h1 {
   font-size: 4em;
   font-family: 'Merienda One', cursive;
-  color: #f39c12;
+  color: rgb(48, 71, 94);
   text-align: center;
 }
 
 #landingPage h2 {
   font-size: 1.5em;
   font-family: 'Merienda One', cursive;
-  color: #ecf0f1;
+  color: rgb(48, 71, 94);
   text-align:center;
 }
 
