@@ -95,7 +95,7 @@ header {
 /*LANDING*/
 #landingPage {
   height: 600px;
-  background: url(lina.png);
+  background: url(./lina.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
