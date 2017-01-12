@@ -1,10 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Quicksand';
-@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+@import 'https://fonts.googleapis.com/css?family=Merienda+One';
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
 
 
 /*LAYOUT*/
 body {
-  font-family: "Quicksand", "Helvetica", "Arial", sans-serif;
+  font-family: sans-serif;
   font-weight: lighter;
   line-height: 1.5em;
   padding: 2em 1em;
@@ -26,12 +27,14 @@ section {
 }
 
 h1, h2 {
+  font-family: 'Fjalla One', sans-serif;
   color: #b0c4de;
 }
 
 h1 {
   padding-top: 1em;
   text-align: center;
+  font-size: 2.5em;
 }
 
 .container {
@@ -57,6 +60,7 @@ a:active {
 
 /*NAV BAR*/
 header {
+  font-family: 'Poppins', sans-serif;
   background-color: rgb(66, 68, 71);
   margin-top: -40px;
   margin-left: -30px;
@@ -105,13 +109,14 @@ header {
 
 #landingPage h1 {
   font-size: 4em;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Merienda One', cursive;
   color: #f39c12;
   text-align: center;
 }
 
-#landingPage p {
+#landingPage h2 {
   font-size: 1.5em;
+  font-family: 'Merienda One', cursive;
   color: #ecf0f1;
   text-align:center;
 }
