@@ -130,3 +130,65 @@ header {
 	width: 70px;
 	height: 70px;
 }
+
+
+
+/*MOBILE RESPONSIVENESS*/
+@media only screen and (max-width: 500px) {
+
+  h1 {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 2em;
+  }
+
+  #mainNav ul {
+    padding: 0 0 0 0;
+  }
+
+  #mainNav ul li {
+    display: inline-block;
+    padding: 0 0 0 0;
+    margin: 0 0 0 20px;
+    font-size: 1.2em;
+  }
+
+  #mainNav ul li:nth-child(3) {
+    display:none;
+  }
+
+ #landingPage {
+  height: 300px;
+  background: url(images/mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  }
+
+  #landingPage h1 {
+  font-size: 3em;
+  font-family: 'Merienda One', cursive;
+  color: white;
+  text-align: center;
+  }
+
+  #landingPage h2 {
+  color: white;
+  }
+
+  .contactIcon {
+  width: 50px;
+  height: 50px;
+  }
+
+  #resume {
+    display: none;
+  }
+
+}
